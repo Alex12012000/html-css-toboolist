@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Common */
@@ -28,9 +29,17 @@ body {
 }
 
 .white-area {
-    padding: 20px;
+    padding: 20px 60px;
     background-color: white;
     margin-bottom: 5px;
+}
+
+li {
+    font-weight: 800;
+    font-size: 25px;
+    list-style: none;
+    margin: 10px 0;
+    vertical-align: middle;
 }
 
 /* Header */
@@ -50,6 +59,7 @@ body {
     font-weight: 800;
     font-size: 50px;
     vertical-align: middle;
+    margin-left: 10px;
 }
 
 img {
@@ -64,3 +74,73 @@ img {
     width: auto;
 }
 
+.main-li {
+    color: rgb(72, 72, 72);
+}
+.triangle {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.sub-li {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.circle {
+    color: red;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin: 0 10px;
+}
+
+.check {
+    color: green;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin: 0 10px;
+}
+
+.tag {
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    background-color: #45abea;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.tag-violet {
+    background-color: #9c72e4;
+}
+
+.tag-green {
+    background-color: #64c0a9;
+}
+
+.tag-lightgreen {
+    background-color: #b0c926;
+}
+
+.tag-pink {
+    background-color: #d863a1;
+}
+
+.tag-orange {
+    background-color: orange;
+}
