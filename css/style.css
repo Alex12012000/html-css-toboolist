@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+
+.logo-bar {
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.head-container {
+    width: 95%;
+    margin:auto;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
