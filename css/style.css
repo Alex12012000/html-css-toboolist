@@ -18,6 +18,8 @@ body {
 }
 
 .btn {
+    font-weight: 500;
+    font-size: 20px;
     border-style: solid;
     padding: 10px;
     border-radius: 10px;
@@ -25,7 +27,7 @@ body {
     border-color: lightgray;
     color: lightgray;
     background-color: white;
-    width: 100px;
+    width: 140px;
 }
 
 .white-area {
@@ -83,8 +85,9 @@ img {
 }
 
 .sub-li {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
+    color: rgb(72, 72, 72);
 }
 
 .circle {
